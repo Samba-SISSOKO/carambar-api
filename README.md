@@ -12,19 +12,27 @@ https://carambar-api-c1vh.onrender.com
 
 Toutes les routes sont versionnées /api/v1 :
 
-Méthode	Endpoint	Description
+Méthode	Endpoint	
 GET	/api/v1/blagues	Récupère toutes les blagues
+
 GET	/api/v1/blagues/:id	Récupère une blague par ID
+
 GET	/api/v1/blagues/random	Récupère une blague aléatoire
+
 POST	/api/v1/blagues	Ajoute une nouvelle blague (body JSON { "contenu": "..." })
+
 PUT	/api/v1/blagues/:id	Met à jour une blague existante (body JSON { "contenu": "..." })
+
 DELETE	/api/v1/blagues/:id	Supprime une blague par ID
+
 🛠️ Installation en local
 
 Cloner le projet :
 
 git clone https://github.com/Samba-SISSOKO/carambar-api.git
+
 cd carambar-api
+
 npm install
 
 Lancer le serveur en développement :
@@ -56,6 +64,7 @@ Render exécute ce script automatiquement pour compiler SQLite correctement.
 Si Swagger est intégré :
 
 https://carambar-api-c1vh.onrender.com/api-docs
+
 🔧 Remarques
 
 Tous les endpoints peuvent être testés avec Postman ou directement via le frontend Angular.
