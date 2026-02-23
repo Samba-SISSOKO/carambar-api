@@ -13,6 +13,7 @@ https://carambar-api-c1vh.onrender.com
 Toutes les routes sont versionnées /api/v1 :
 
 Méthode	Endpoint	
+
 GET	/api/v1/blagues	Récupère toutes les blagues
 
 GET	/api/v1/blagues/:id	Récupère une blague par ID
