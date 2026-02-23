@@ -70,3 +70,11 @@ https://carambar-api-c1vh.onrender.com/api-docs
 
 Tous les endpoints peuvent être testés avec Postman ou directement via le frontend Angular.
 
+
+## 🛠️ Installation en local
+
+Cloner le projet :
+
+```bash
+git clone https://github.com/Samba-SISSOKO/carambar-api.git
+cd carambar-api
