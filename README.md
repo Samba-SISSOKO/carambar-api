@@ -42,13 +42,11 @@ Toutes les routes sont préfixées par : `/api/v1`
 
 ---
 
-## Accessible sur :
+Accessible en local
 
 http://localhost:3000
 
----
-
-## ⚙️ Stack technique
+⚙️ Stack technique
 
 Node.js 22.x
 
@@ -62,9 +60,7 @@ Swagger (documentation API)
 
 Déploiement : Render
 
----
-
-## 🧩 Déploiement
+🧩 Déploiement
 
 Backend hébergé sur Render :
 
@@ -74,9 +70,7 @@ Script spécifique ajouté pour SQLite sous Linux :
 
 "heroku-postbuild": "npm rebuild sqlite3 --build-from-source"
 
----
-
-## 🧪 Tests
+🧪 Tests
 
 Les endpoints peuvent être testés :
 
@@ -86,9 +80,7 @@ via Postman
 
 via le frontend Angular
 
----
-
-## 🛠 Installation en local
+🛠 Installation en local
 
 git clone https://github.com/Samba-SISSOKO/carambar-api.git
 cd carambar-api
