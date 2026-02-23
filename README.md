@@ -61,7 +61,7 @@ Render exécute ce script automatiquement pour compiler SQLite correctement.
 
 📄 Documentation API
 
-Si Swagger est intégré :
+
 
 https://carambar-api-c1vh.onrender.com/api-docs
 
@@ -69,6 +69,3 @@ https://carambar-api-c1vh.onrender.com/api-docs
 
 Tous les endpoints peuvent être testés avec Postman ou directement via le frontend Angular.
 
-Ne jamais versionner node_modules pour éviter les problèmes de compilation sur Linux.
-
-Les modifications locales doivent être poussées sur GitHub avant de redéployer sur Render.
